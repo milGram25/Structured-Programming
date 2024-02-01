@@ -1,11 +1,11 @@
 /****PRESENTACIÓN********
 NOMBRE: MILTON GARCÍA ROMO
-FECHA:  de  de 2024
+FECHA: 2 de febrero de 2024
 PROGRAMA: loops.cpp
 CENTRO UNIVERSITARIO DE LOS ALTOS / UNIVERSIDAD DE GUADALAJARA
 INGENIERÍA EN COMPUTACIÓN / 2DO SEMESTRE
 PROFESOR: CARLOS JAVIER CRUZ FRANCO
-DESCRIPCIÓN: 
+DESCRIPCIÓN: Un programa que utiliza ciclos para imprimir sucesiones numéricas sencillas múltiples veces.
 **************************************************************/
 
 #include <iostream>
