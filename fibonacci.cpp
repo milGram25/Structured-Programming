@@ -30,7 +30,7 @@ int main()
         switch(opt){
             case 1:
                 cout<<a<<endl;
-                for(c=0;c<=series;c=c){
+                for(c=1;c<=series;c=c){
                     cout<<c<<endl;
                     c=a+b;
                     a=b;
