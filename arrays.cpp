@@ -16,14 +16,17 @@ int main(){
     int opt,sum,pos,edit,times,j;
     int numbers[10];
     bool exit=false;
+    //Inicializar el arreglo
     for(int i=0;i<10;i++){
         numbers[i]=0;
     }
     do{
+        //Menu
         cout<<"Elija la opcion deseada.\n1. Anadir valores al arreglo\n2. Mostrar lista de valores\n3. Mostrar suma de valores\n4. Editar elemento\n5. Vaciar arreglo\n6. Finalizar"<<endl;
         cin>>opt;
         switch(opt){
             case 1:
+                //Añadir valores en campos vacíos
                 cout<<"Cuantos datos desea ingresar?"<<endl;
                 cin>>times;
                 for(int i=0;i<times;i++){
@@ -38,11 +41,13 @@ int main(){
                 }
                 break;
             case 2:
+                //Imprimir arreglo
                 for(int i=0;i<10;i++){
                     cout<<numbers[i]<<endl;
                 }
                 break;
             case 3:
+                //Sumar arreglo
                 sum=0;
                 for(int i=0;i<10;i++){
                     sum=sum+numbers[i];
@@ -56,10 +61,12 @@ int main(){
                 cin>>edit;
                 switch(edit){
                     case 1:
+                        //Modificar valor
                         cout<<"Ingrese valor nuevo."<<endl;
                         cin>>numbers[pos-1];
                         break;
                     case 2:
+                        //Eliminar  valor
                         numbers[pos-1]=0;
                         cout<<"Valor eliminado."<<endl;
                         break;
@@ -68,11 +75,13 @@ int main(){
                 }
                 break;
             case 5:
+                //Vaciar arreglo
                 for(int i=0;i<10;i++){
                     numbers[i]=0;
                 }
                 break;
             case 6:
+                //Finalizar programa
                 exit=true;
                 break;
             default:
