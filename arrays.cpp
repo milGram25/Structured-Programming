@@ -20,7 +20,7 @@ int main(){
         numbers[i]=0;
     }
     do{
-        cout<<"Elija la opcion deseada.\n1. Añadir valores al arreglo\n2. Mostrar lista de valores\n3. Mostrar suma de valores\n4. Editar elemento\n5. Vaciar arreglo\n6.Finalizar"<<endl;
+        cout<<"Elija la opcion deseada.\n1. Anadir valores al arreglo\n2. Mostrar lista de valores\n3. Mostrar suma de valores\n4. Editar elemento\n5. Vaciar arreglo\n6. Finalizar"<<endl;
         cin>>opt;
         switch(opt){
             case 1:
@@ -57,10 +57,10 @@ int main(){
                 switch(edit){
                     case 1:
                         cout<<"Ingrese valor nuevo."<<endl;
-                        cin>>numbers[pos];
+                        cin>>numbers[pos-1];
                         break;
                     case 2:
-                        numbers[pos]=0;
+                        numbers[pos-1]=0;
                         cout<<"Valor eliminado."<<endl;
                         break;
                     default:
