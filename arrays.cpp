@@ -32,7 +32,7 @@ int main(){
                 for(int i=0;i<times;i++){
                     j=0;
                     for(j=0;j<10;j++){
-                        if(numbers[j]==0){
+                        if(numbers[j]==NULL){
                             cout<<"Ingrese valor. Se añadira al primer campo vacio."<<endl;
                             cin>>numbers[j];
                             j=10;
@@ -67,7 +67,7 @@ int main(){
                         break;
                     case 2:
                         //Eliminar  valor
-                        numbers[pos-1]=0;
+                        numbers[pos-1]=NULL;
                         cout<<"Valor eliminado."<<endl;
                         break;
                     default:
@@ -77,7 +77,7 @@ int main(){
             case 5:
                 //Vaciar arreglo
                 for(int i=0;i<10;i++){
-                    numbers[i]=0;
+                    numbers[i]=NULL;
                 }
                 break;
             case 6:
