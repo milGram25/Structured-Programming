@@ -29,6 +29,15 @@ int main(){
                 //Añadir valores en campos vacíos
                 cout<<"Cuantos datos desea ingresar?"<<endl;
                 cin>>times;
+                sum=0;
+                for(int k=0;k<10;k++){
+                    if(numbers[k]==NULL){
+                        sum++;
+                    }
+                }
+                if(sum<times){
+                    cout<<"No hay suficientes espacios vacios."<<endl;
+                } else{
                 for(int i=0;i<times;i++){
                     j=0;
                     for(j=0;j<10;j++){
@@ -38,6 +47,7 @@ int main(){
                             j=10;
                         }
                     }
+                }
                 }
                 break;
             case 2:
@@ -71,7 +81,7 @@ int main(){
                         cout<<"Valor eliminado."<<endl;
                         break;
                     default:
-                        cout<<"Valor invalido."<<endl;
+                        cout<<"Opcion invalido."<<endl;
                 }
                 break;
             case 5:
@@ -85,7 +95,7 @@ int main(){
                 exit=true;
                 break;
             default:
-                cout<<"Valor invalido."<<endl;
+                cout<<"Opcion invalida."<<endl;
         }
     } while(exit==false);
 }
