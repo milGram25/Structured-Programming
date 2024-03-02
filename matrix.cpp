@@ -1,11 +1,11 @@
 /*********PRESENTACIÓN********
 NOMBRE: MILTON GARCÍA ROMO
-FECHA:  de febrero de 2024
+FECHA: 04 de marzo de 2024
 PROGRAMA: matrix.cpp
 CENTRO UNIVERSITARIO DE LOS ALTOS / UNIVERSIDAD DE GUADALAJARA
 INGENIERÍA EN COMPUTACIÓN / 2DO SEMESTRE
 PROFESOR: CARLOS JAVIER CRUZ FRANCO
-DESCRIPCIÓN: 
+DESCRIPCIÓN: Un programa que trabaja con dos matrices, puede realizar operaciones de suma, resta y multiplicacion, un llenado manual y aleatorio, y tratado de los elementos.
 **************************************************************/
 
 #include <stdlib.h>
