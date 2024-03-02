@@ -1,4 +1,4 @@
-/****PRESENTACIÓN********
+/*********PRESENTACIÓN********
 NOMBRE: MILTON GARCÍA ROMO
 FECHA: 21 de febrero de 2024
 PROGRAMA: arrays.cpp
