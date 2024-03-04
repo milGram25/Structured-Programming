@@ -17,17 +17,35 @@ using namespace std;
 int main(){
     int sizea,sizeb,column,row,i,j,a,suma,sumb,columna,rowa,columnb,rowb,editMat,edit,opt,count,rest,mult;
     char confirm;
-    bool exit=false;
+    bool exit=false,valid=false;
 
     //Inizializar randomizador
     srand(time(NULL));
     a=rand()%201;
 
-    //Dar tamaño a las matrices
+    //Tamaño de Matriz A
+    do{
     cout<<"De que tamano sera el lado de su matriz A?"<<endl;
     cin>>sizea;
+    if(sizea>10||sizea<2){
+        cout<<"Tamano invalido."<<endl;
+        valid=false;
+    } else {
+        valid=true;
+    }
+    } while (valid==false);
+    
+    //Tamaño de Matriz B
+    do{
     cout<<"De que tamano sera el lado de su matriz B?"<<endl;
     cin>>sizeb;
+        if(sizeb>10||sizeb<2){
+        cout<<"Tamano invalido."<<endl;
+        valid=false;
+    } else {
+        valid=true;
+    }
+    } while (valid==false);
 
     int matra[10][10],matrb[10][10];
 
@@ -46,13 +64,29 @@ int main(){
     }
 
     do{
+        do{
         cout<<"Que desea hacer?\n1.Ingresar valores\n2.Llenar matriz con valores aleatorios\n3.Realizar una operacion con las matrices\n4.Mostrar matriz\n5.Editar elementos\n6.Vaciado de matrices\n7.Salir"<<endl;
         cin>>opt;
+        if(opt<1||opt>7){
+            cout<<"Opcion invalida"<<endl;
+            valid=false;
+        } else {
+            valid=true;
+        }
+        } while (valid==false);
         switch(opt){
             case 1:
                 //Ingresar
+                do{
                 cout<<"En que matriz desea añadir elementos?\n1.Matriz A\n2.Matriz B"<<endl;
                 cin>>editMat;
+                if(editMat<1||editMat>2){
+                    cout<<"Opcion invalida"<<endl;
+                    valid=false;
+                } else {
+                    valid=true;
+                }
+                }while(valid==false);
                 cout<<"Cuantos datos ingresara?"<<endl;
                 cin>>count;
                 switch(editMat){
