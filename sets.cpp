@@ -1,12 +1,12 @@
 /*********PRESENTACIÓN********
 NOMBRE: MILTON GARCÍA ROMO
-FECHA:  de marzo de 2024
+FECHA: 15 de marzo de 2024
 PROGRAMA: sets.cpp
 CENTRO UNIVERSITARIO DE LOS ALTOS / UNIVERSIDAD DE GUADALAJARA
 INGENIERÍA EN COMPUTACIÓN / 2DO SEMESTRE
 PROFESOR: CARLOS JAVIER CRUZ FRANCO
-DESCRIPCIÓN: 
-**************************************************************/
+DESCRIPCIÓN: Un programa que permite manipular y realizar operaciones de dos conjuntos.
+*************************************************************/
 
 #include <iostream>
 #include <algorithm>
