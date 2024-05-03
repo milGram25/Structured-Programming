@@ -65,18 +65,43 @@ void randomFill(int arr[]){
     cout<<"Llenado completado."<<endl;
 }
 
-void showArr(int arr[]){
-    for(i=0;i<5;i++){
-        cout<<"|\t";
-        for(j=0;j<10;j++){
-            if(arr[(i*10)+j]!=NULL){
-                cout<<arr[(i*10)+j]<<"\t";
-            }
+void showArr(int arr[],int index, int lines){
+    if(lines==5){
+        return;
+    }
+
+    int count=0;
+
+    
+}
+
+void MostrarArregloRecursivo(int arr[], int index, int elements, int row) {
+    if (row == 5) { // Si ya hemos impreso todas las filas necesarias, terminamos la recursión
+        return;
+    }
+    int count=0;
+    for(i=0;i<50;i++){
+        if(arr[i]!=NULL){
+            count++;
         }
-        cout<<"|"<<endl;
+    }
+    if (index < count) { // Si aún quedan elementos por mostrar
+        cout << arr[index] << "\t"; // Mostramos el elemento actual
+
+        if ((index + 1) % elements == 0) { // Si hemos impreso la cantidad de elementos por fila
+            cout << endl; // Cambiamos de línea
+            MostrarArregloRecursivo(arr, index + 1, elements, row + 1); // Llamamos recursivamente para la siguiente fila
+        } else { // Si aún quedan elementos por mostrar en la fila actual
+            MostrarArregloRecursivo(arr, index + 1, elements, row); // Llamamos recursivamente para el siguiente elemento de la misma fila
+        }
     }
 }
 
+void showArr(int arr[]) {
+    cout << "Datos en el arreglo:" << endl;
+    MostrarArregloRecursivo(arr, 0, 10, 0); // Llamamos a la función recursiva con el índice inicial, 10 elementos por fila y fila inicial 0
+   cout<<endl;
+}
 void sumArr(int arr[]){
     int sum=0;
     for(i=0;i<50;i++){
