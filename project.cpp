@@ -5,7 +5,7 @@ PROGRAMA: project.cpp
 CENTRO UNIVERSITARIO DE LOS ALTOS / UNIVERSIDAD DE GUADALAJARA
 INGENIERÍA EN COMPUTACIÓN / 2DO SEMESTRE
 PROFESOR: CARLOS JAVIER CRUZ FRANCO
-DESCRIPCIÓN: 
+DESCRIPCIÓN: Un programa que permite editar y almacenar la información académica de hasta 5 alumnos.
 **************************************************************/
 
 #include <iostream>
