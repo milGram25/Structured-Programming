@@ -1,0 +1,25 @@
+Nombre: 
+Carrera: 
+Código: 1962799939
+
+Nombre de la Materia: 
+Profesor : 
+Calificación: 0.00 (Reprobado)
+
+Nombre de la Materia: 
+Profesor : 
+Calificación: 148560171605958910000000000000.00 (Calificacion no valida)
+
+Nombre de la Materia: 
+Profesor : 
+Calificación: 148592472592701740000000000000.00 (Calificacion no valida)
+
+Nombre de la Materia: 
+Profesor : 
+Calificación: 146749427401767370000000000000.00 (Calificacion no valida)
+
+Nombre de la Materia: 
+Profesor : 
+Calificación: 148620806791598960000000000000.00 (Calificacion no valida)
+
+Promedio: 118504575678405400000000000000.00 (Calificacion no valida)

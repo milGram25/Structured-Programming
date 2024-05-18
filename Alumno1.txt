@@ -1,0 +1,19 @@
+Nombre: Chris Santana
+Carrera: Ingenieria en Computacion
+Código: 21
+Nombre de la Materia: Calculo
+Profesor : Cesar
+Calificación: 100.00 (Excelente)
+Nombre de la Materia: Mecanica
+Profesor : Mariano
+Calificación: 100.00 (Excelente)
+Nombre de la Materia: Programacion
+Profesor : Carlos
+Calificación: 100.00 (Excelente)
+Nombre de la Materia: Administracion
+Profesor : Miguel Angel
+Calificación: 100.00 (Excelente)
+Nombre de la Materia: Matematicas Discretas
+Profesor : Manuel
+Calificación: 100.00 (Excelente)
+Promedio: 100.00 (Excelente)

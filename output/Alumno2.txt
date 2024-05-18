@@ -1,0 +1,25 @@
+Nombre: Karina
+Carrera: Ingenieria en Agroindustrias
+Código: 22
+
+Nombre de la Materia: 
+Profesor : 
+Calificación: 0.00 (Reprobado)
+
+Nombre de la Materia: 
+Profesor : 
+Calificación: 148560171605958910000000000000.00 (Calificacion no valida)
+
+Nombre de la Materia: Programacion
+Profesor : Carlos
+Calificación: 89.00 (Bueno)
+
+Nombre de la Materia: 
+Profesor : 
+Calificación: 146749427401767370000000000000.00 (Calificacion no valida)
+
+Nombre de la Materia: 
+Profesor : 
+Calificación: 148620806791598960000000000000.00 (Calificacion no valida)
+
+Promedio: 88786081159865048000000000000.00 (Calificacion no valida)
